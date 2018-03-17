@@ -23,6 +23,7 @@ public class SignUpActivity extends AppCompatActivity implements View.OnClickLis
     private EditText editTextEmail;
     private EditText editTextPassword;
     private TextView textViewSignup;
+    //private EditText editTextContact;
 
     //firebase auth object
     private FirebaseAuth firebaseAuth;
@@ -50,6 +51,7 @@ public class SignUpActivity extends AppCompatActivity implements View.OnClickLis
 
         //initializing views
         editTextEmail = (EditText) findViewById(R.id.editTextEmail);
+     //   editTextContact = (EditText) findViewById(R.id.editTextContact);
         editTextPassword = (EditText) findViewById(R.id.editTextPassword);
         buttonSignIn = (Button) findViewById(R.id.buttonSignin);
         textViewSignup  = (TextView) findViewById(R.id.textViewSignUp);
