@@ -12,16 +12,16 @@ public class User {
 
 
 
-    public User(String USerId, String message, String contact, String location){
-        this.UserId = USerId;
+    public User(String userId, String message, String contact, String location){
+        this.UserId = userId;
 
         this.message = message;
         this.contact = contact;
         this.location = location;
     }
-    public String getUserId() {
-        return UserId;
-    }
+    //public String getUserId() {
+        //return UserId;
+    //}
 
     public String getMessage() {
         return message;

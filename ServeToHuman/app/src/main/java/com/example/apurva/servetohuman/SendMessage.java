@@ -38,7 +38,7 @@ public class SendMessage extends FirebaseMessagingService {
     }
     private void sendNotification(String body)
     {
-        Intent intent = new Intent(this,LoginActivity.class);
+        Intent intent = new Intent(this,Notification_success.class);
         intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         PendingIntent pendingIntent = PendingIntent.getActivity(this,0,intent,PendingIntent.FLAG_ONE_SHOT);
         Uri notificationSound = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
