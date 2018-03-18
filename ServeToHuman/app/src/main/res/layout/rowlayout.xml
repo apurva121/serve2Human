@@ -32,7 +32,8 @@
                     android:id="@+id/tpo_name"
                     android:textStyle="bold"
                     android:paddingRight="8dp"
-                    android:textSize="40dp"
+                    android:textSize="20dp"
+
                     />
             </RelativeLayout>
         </ViewFlipper>

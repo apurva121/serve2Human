@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
     android:orientation="vertical"
+    android:background="@drawable/images"
     tools:context="com.example.apurva.servetohuman.LoginSuccess">
 
     <include
@@ -16,7 +17,7 @@
 
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:elevation="8dp"
+        android:elevation="4dp"
 
         android:id="@+id/Recycler"
         >

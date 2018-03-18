@@ -76,7 +76,7 @@ public class OneActivity extends AppCompatActivity {
         String strtext = "PLease help";
 
         // Open NotificationView Class on Notification Click
-        Intent intent = new Intent(this, Notification_success.class);
+        Intent intent = new Intent(this, Instant_help.class);
         // Send data to NotificationView Class
         intent.putExtra("title", strtitle);
         intent.putExtra("text", strtext);

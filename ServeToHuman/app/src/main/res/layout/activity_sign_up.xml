@@ -4,21 +4,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     tools:context="com.example.apurva.servetohuman.SignUpActivity">
 
+
     <LinearLayout
-        android:layout_centerVertical="true"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:layout_height="470dp"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="26dp">
 
         <TextView
+            android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_gravity="center_horizontal"
             android:text="User Login"
-            android:id="@+id/textView"
-            android:layout_gravity="center_horizontal" />
+            android:textAppearance="?android:attr/textAppearanceLarge" />
 
         <EditText
             android:id="@+id/editTextEmail"
@@ -42,16 +46,22 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
-            android:text="Signup" />
+            android:text="Login" />
 
         <TextView
-            android:text="Not have an account? Signup Here"
             android:id="@+id/textViewSignUp"
-            android:textAlignment="center"
-            android:layout_margin="15dp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Not have an account? Signup Here"
+            android:textAlignment="center" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
 
+            android:src="@drawable/download"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="417dp" />
     </LinearLayout>
 
 
